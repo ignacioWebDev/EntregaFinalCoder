@@ -1,0 +1,83 @@
+@media (max-width:425px) {
+    main {
+        .flex-section {
+            justify-content: center;
+            .grid-img {
+                grid-template-columns: 380px;
+                grid-template-rows: 250px 350px;
+                h4 {
+                    margin-bottom: 1rem;
+                }
+                p {
+                    padding: 10px;
+                }
+            }
+        }
+        .flex-section1 {
+            justify-content: center;
+            .grid-img1 {
+                grid-template-columns: 380px;
+                grid-template-rows: 250px 350px;
+                h4 {
+                    margin-bottom: 1rem;
+                }
+                p {
+                    padding: 10px;
+                }
+            }
+        }
+        .flex-section2 {
+            justify-content: center;
+            .grid-img2 {
+                grid-template-columns: 380px;
+                grid-template-rows: 250px 350px;
+                h4 {
+                    margin-bottom: 1rem;
+                }
+                p {
+                    padding: 10px;
+                }
+            }
+        }
+        .iframe-flex{
+            margin: 2rem;
+            iframe {
+                width: 40rem;
+                height: 25rem;
+            }
+        }
+        .container-cards2 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .container-cards3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .cards {
+            width: 11rem;
+        }
+        .container-marcas {
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .h3 {
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .whatsapp {
+            width: 60px;
+            height: 60px;
+        }
+        .bg-div {
+            height: 500px;
+        }
+        .img-banner, .img-banner1, .img-banner2, .img-banner3, .bg-div  {
+            height: 400px;
+        }
+    }
+    footer {
+        .div-grid-footer {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 60px);
+        }
+    }
+}

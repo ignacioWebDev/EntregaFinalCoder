@@ -1,0 +1,14 @@
+@media (max-width:1024px) {
+    main {
+        .container-cards2 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .cards {
+            width: 14rem;
+        }
+        .container-marcas {
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+    }
+}

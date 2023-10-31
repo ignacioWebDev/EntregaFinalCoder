@@ -1,0 +1,37 @@
+.cards {
+    margin: 15px;
+    width: 380px;
+    padding: 10px;
+    background-color: #f5efe7;
+    border-radius: 1.25rem;
+}
+
+.cards div img {
+    width: 100%;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    transition: all .5s;
+    box-shadow: 3px 5px 10px grey;
+}
+
+.container-cards3 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.container-cards2 {
+    @extend .container-cards3;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-cards {
+    @extend .container-cards3;
+}
+
+.container-cards4 {
+    @extend .container-cards3;
+}

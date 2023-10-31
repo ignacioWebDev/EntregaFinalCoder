@@ -1,0 +1,20 @@
+@media (max-width:1440px) {
+    main {
+        .container-cards2 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .cards {
+            width: 18rem;
+        }
+        .container-marcas {
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .img-banner, .img-banner1, .img-banner2, .img-banner3 {
+            height: 600px;
+        }
+        .bg-div {
+            height: 600px;
+        }
+    }
+}

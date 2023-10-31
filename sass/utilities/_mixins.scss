@@ -1,0 +1,14 @@
+@mixin contcards($tempcol, $justcont) {
+    display: grid;
+    width: 100%;
+    grid-template-columns: $tempcol;
+    justify-items: $justcont;
+}
+
+@mixin cards ($margin, $width, $padding){
+    margin: $margin;
+    width: $width;
+    padding: $padding;
+    background-color: $bg-secundario;
+    border-radius: 1.25rem;
+}

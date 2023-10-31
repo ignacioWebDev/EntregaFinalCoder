@@ -1,0 +1,47 @@
+@media (max-width:768px) {
+    main {
+        .container-cards2 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .container-cards3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .cards {
+            width: 14rem;
+        }
+        .container-marcas {
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .flex-section {
+            .grid-img {
+                grid-template-columns: 300px 300px;
+                grid-template-rows: 300px;
+                p {
+                    padding: 20px;
+                }
+            }
+        }
+        .flex-section1 {
+            .grid-img1 {
+                grid-template-columns: 300px 300px;
+                grid-template-rows: 300px;
+                p {
+                    padding: 20px;
+                }
+            }
+        }
+        .flex-section2 {
+            .grid-img2 {
+                grid-template-columns: 300px 300px;
+                grid-template-rows: 300px;
+                p {
+                    padding: 20px;
+                }
+            }
+        }
+        .bg-div {
+            height: 500px;
+        }
+    }
+}

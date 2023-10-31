@@ -1,0 +1,36 @@
+@media (max-width:320px) {
+    main {
+        .cards {
+            width: 8rem;
+            h3 {
+                font-size: 15px;
+            }
+        }
+        .flex-section {
+            justify-content: center;
+            .grid-img {
+                grid-template-columns: 300px;
+                grid-template-rows: 250px 350px;
+            }
+        }
+        .flex-section1 {
+            justify-content: center;
+            .grid-img1 {
+                grid-template-columns: 300px;
+                grid-template-rows: 250px 350px;
+            }
+        }
+        .flex-section2 {
+            justify-content: center;
+            .grid-img2 {
+                grid-template-columns: 300px;
+                grid-template-rows: 250px 350px;
+            }
+        }
+        .whatsapp {
+            width: 50px;
+            height: 50px;
+            bottom: 50px;
+        }
+    }
+}

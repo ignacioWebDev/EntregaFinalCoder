@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif; }
+
+.cards {
+  margin: 15px;
+  width: 380px;
+  padding: 10px;
+  background-color: #f5efe7;
+  border-radius: 1.25rem; }
+
+.cards div img {
+  width: 100%; }
+
+.cards:hover {
+  transform: scale(1.05);
+  transition: all .5s;
+  box-shadow: 3px 5px 10px grey; }
+
+.container-cards3, .container-cards2, .container-cards, .container-cards4 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center; }
+
+.container-cards2 {
+  grid-template-columns: repeat(3, 1fr); }
+
+main {
+  width: 100%;
+  background-color: #d8c4b6; }
+  main h1 {
+    text-align: center;
+    animation-name: titulo;
+    animation-duration: 1s;
+    animation-iteration-count: 1; }
+  main h2 {
+    margin-left: 1.25rem; }
+  main .div-p-flex {
+    padding: 1rem;
+    display: flex;
+    justify-content: center; }
+  main label {
+    color: #f5efe7;
+    display: block;
+    margin: 0.5rem; }
+  main input {
+    margin-left: 0.5rem; }
+  main .dropdown button {
+    margin-left: 1rem; }
+  main .iframe-flex {
+    display: flex;
+    justify-content: center;
+    margin: 3.125rem; }
+    main .iframe-flex iframe {
+      width: 50rem;
+      height: 37.5rem; }
+  main .bg-div {
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/R.675c49c9296c1153a767e7e5a8e15c58?rik=ANorY%2b270xYoDg&riu=http%3a%2f%2fparqueavellanedashopping.com.ar%2fwp-content%2fuploads%2f2021%2f03%2fdexter-1.jpg&ehk=iX5%2bdYTscvLyNN%2bBZsrv6biCiZAgfGFbCl0jZmrfvF8%3d&risl=&pid=ImgRaw&r=0);
+    filter: grayscale(0.5);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  main .img-banner {
+    background-image: url(https://im.whatshot.in/img/2021/Jun/hatrick-1622548830.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  main .img-banner1 {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6e8c3f178778683.64ee148712d85.jpg);
+    width: 100%;
+    height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  main .img-banner2 {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/53eb6c178778683.64ee148716340.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  main .img-banner3 {
+    background-image: url(https://cache.tradeinn.com/images/brand-page/banner_1533_12.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  main .whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 10; }
+  main .disabled {
+    pointer-events: all !important; }
+  main .disabled:hover {
+    cursor: not-allowed !important; }
+  main p {
+    text-align: center; }
+  main .h33 {
+    margin-left: 1.25rem;
+    color: black;
+    background-color: none;
+    text-align: start; }
+  main h1 {
+    color: #f5efe7;
+    text-align: center; }
+  main .h3 {
+    color: #f5efe7;
+    position: relative;
+    text-align: center;
+    background-color: #000000bf;
+    border: #f5efe7 solid 1px;
+    padding: 5px;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem; }
+  main .flex-section, main .flex-section2 {
+    display: flex;
+    justify-content: end; }
+    main .flex-section .grid-img, main .flex-section2 .grid-img {
+      display: grid;
+      grid-template-columns: 400px 400px;
+      grid-template-rows: 350px;
+      background-color: #f5efe7;
+      border-radius: 1.25rem;
+      padding: .3125rem;
+      margin: 1rem;
+      border: solid black 1px; }
+      main .flex-section .grid-img h4, main .flex-section2 .grid-img h4 {
+        text-align: center;
+        margin-top: 0.65rem;
+        margin-bottom: 2rem; }
+      main .flex-section .grid-img p, main .flex-section2 .grid-img p {
+        padding: 40px; }
+      main .flex-section .grid-img img, main .flex-section2 .grid-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.25rem; }
+  main .flex-section1 {
+    display: flex;
+    justify-content: start; }
+    main .flex-section1 .grid-img1 {
+      display: grid;
+      grid-template-columns: 400px 400px;
+      grid-template-rows: 350px;
+      background-color: #f5efe7;
+      border-radius: 1.25rem;
+      padding: .3125rem;
+      margin: 1rem;
+      border: solid black 1px; }
+      main .flex-section1 .grid-img1 h4 {
+        text-align: center;
+        margin-top: 0.65rem;
+        margin-bottom: 2rem; }
+      main .flex-section1 .grid-img1 p {
+        padding: 40px; }
+      main .flex-section1 .grid-img1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.25rem; }
+  main .flex-section2 .grid-img2 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 350px;
+    background-color: #f5efe7;
+    border-radius: 1.25rem;
+    padding: .3125rem;
+    margin: 1rem;
+    border: solid black 1px; }
+    main .flex-section2 .grid-img2 h4 {
+      text-align: center;
+      margin-top: 0.65rem;
+      margin-bottom: 2rem; }
+    main .flex-section2 .grid-img2 p {
+      padding: 40px; }
+    main .flex-section2 .grid-img2 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 1.25rem; }
+
+@keyframes titulo {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+
+header {
+  width: 100%;
+  background-color: #4f709c; }
+  header nav a {
+    color: #f5efe7 !important; }
+
+.dropdown-menu {
+  background-color: #000000bf !important; }
+
+footer {
+  width: 100%;
+  background-color: #4f709c;
+  padding: 16px; }
+  footer h3, footer p {
+    color: #f5efe7; }
+  footer .div-grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center; }
+  footer .div-social-flex {
+    display: flex;
+    gap: 15px; }
+
+@media (max-width: 1440px) {
+  main .container-cards2 {
+    grid-template-columns: repeat(3, 1fr); }
+  main .cards {
+    width: 18rem; }
+  main .container-marcas {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; }
+  main .img-banner, main .img-banner1, main .img-banner2, main .img-banner3 {
+    height: 600px; }
+  main .bg-div {
+    height: 600px; } }
+
+@media (max-width: 1024px) {
+  main .container-cards2 {
+    grid-template-columns: repeat(3, 1fr); }
+  main .cards {
+    width: 14rem; }
+  main .container-marcas {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; } }
+
+@media (max-width: 768px) {
+  main .container-cards2 {
+    grid-template-columns: repeat(3, 1fr); }
+  main .container-cards3, main .container-cards2, main .container-cards, main .container-cards4 {
+    grid-template-columns: repeat(3, 1fr); }
+  main .cards {
+    width: 14rem; }
+  main .container-marcas {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; }
+  main .flex-section .grid-img, main .flex-section2 .grid-img {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px; }
+    main .flex-section .grid-img p, main .flex-section2 .grid-img p {
+      padding: 20px; }
+  main .flex-section1 .grid-img1 {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px; }
+    main .flex-section1 .grid-img1 p {
+      padding: 20px; }
+  main .flex-section2 .grid-img2 {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px; }
+    main .flex-section2 .grid-img2 p {
+      padding: 20px; }
+  main .bg-div {
+    height: 500px; } }
+
+@media (max-width: 425px) {
+  main .flex-section, main .flex-section2 {
+    justify-content: center; }
+    main .flex-section .grid-img, main .flex-section2 .grid-img {
+      grid-template-columns: 380px;
+      grid-template-rows: 250px 350px; }
+      main .flex-section .grid-img h4, main .flex-section2 .grid-img h4 {
+        margin-bottom: 1rem; }
+      main .flex-section .grid-img p, main .flex-section2 .grid-img p {
+        padding: 10px; }
+  main .flex-section1 {
+    justify-content: center; }
+    main .flex-section1 .grid-img1 {
+      grid-template-columns: 380px;
+      grid-template-rows: 250px 350px; }
+      main .flex-section1 .grid-img1 h4 {
+        margin-bottom: 1rem; }
+      main .flex-section1 .grid-img1 p {
+        padding: 10px; }
+  main .flex-section2 {
+    justify-content: center; }
+    main .flex-section2 .grid-img2 {
+      grid-template-columns: 380px;
+      grid-template-rows: 250px 350px; }
+      main .flex-section2 .grid-img2 h4 {
+        margin-bottom: 1rem; }
+      main .flex-section2 .grid-img2 p {
+        padding: 10px; }
+  main .iframe-flex {
+    margin: 2rem; }
+    main .iframe-flex iframe {
+      width: 40rem;
+      height: 25rem; }
+  main .container-cards2 {
+    grid-template-columns: repeat(2, 1fr); }
+  main .container-cards3, main .container-cards2, main .container-cards, main .container-cards4 {
+    grid-template-columns: repeat(2, 1fr); }
+  main .cards {
+    width: 11rem; }
+  main .container-marcas {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; }
+  main .h3 {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  main .whatsapp {
+    width: 60px;
+    height: 60px; }
+  main .bg-div {
+    height: 500px; }
+  main .img-banner, main .img-banner1, main .img-banner2, main .img-banner3, main .bg-div {
+    height: 400px; }
+  footer .div-grid-footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 60px); } }
+
+@media (max-width: 375px) {
+  main .cards {
+    width: 10rem; }
+    main .cards h3 {
+      font-size: 18px; }
+  main .container-marcas {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; }
+  main .flex-section .grid-img, main .flex-section2 .grid-img {
+    grid-template-columns: 350px;
+    grid-template-rows: 250px 350px; }
+    main .flex-section .grid-img h4, main .flex-section2 .grid-img h4 {
+      margin-bottom: 1rem; }
+    main .flex-section .grid-img p, main .flex-section2 .grid-img p {
+      padding: 10px; }
+  main .flex-section1 .grid-img1 {
+    grid-template-columns: 350px;
+    grid-template-rows: 250px 350px; }
+    main .flex-section1 .grid-img1 h4 {
+      margin-bottom: 1rem; }
+    main .flex-section1 .grid-img1 p {
+      padding: 10px; }
+  main .flex-section2 .grid-img2 {
+    grid-template-columns: 350px;
+    grid-template-rows: 250px 350px; }
+    main .flex-section2 .grid-img2 h4 {
+      margin-bottom: 1rem; }
+    main .flex-section2 .grid-img2 p {
+      padding: 10px; }
+  footer .div-grid-footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 60px); } }
+
+@media (max-width: 320px) {
+  main .cards {
+    width: 8rem; }
+    main .cards h3 {
+      font-size: 15px; }
+  main .flex-section, main .flex-section2 {
+    justify-content: center; }
+    main .flex-section .grid-img, main .flex-section2 .grid-img {
+      grid-template-columns: 300px;
+      grid-template-rows: 250px 350px; }
+  main .flex-section1 {
+    justify-content: center; }
+    main .flex-section1 .grid-img1 {
+      grid-template-columns: 300px;
+      grid-template-rows: 250px 350px; }
+  main .flex-section2 {
+    justify-content: center; }
+    main .flex-section2 .grid-img2 {
+      grid-template-columns: 300px;
+      grid-template-rows: 250px 350px; }
+  main .whatsapp {
+    width: 50px;
+    height: 50px;
+    bottom: 50px; } }
